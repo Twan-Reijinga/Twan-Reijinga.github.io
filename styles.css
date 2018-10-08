@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Do+Hyeon|Raleway|Spinnaker|Poppins:900');
+
+
+.top-foto {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #181818;
+  background-image: url("https://www.quotenet.nl/var/hearst/storage/images/quote/nieuws/bill-gates-mensen-uit-deze-drie-vakgebieden-worden-het-succesvolst-in-de-toekomst-208788/4091804-1-dut-NL/Bill-Gates-mensen-uit-deze-drie-vakgebieden-worden-het-succesvolst-in-de-toekomst_crop1000x500.jpg");
+}
+.Microsoft {
+  background-image: url("https://icdn2.digitaltrends.com/image/microsoft-hq-headquarters-buiding-sign-logo-symbol-company-720x720.jpg?ver=1.jpg");
+  height: 350px;
+  background-color: #000;
+}
+.text-foto {
+     position:absolute;
+     top:0px;
+     padding-top:80px;
+     height:0px;
+     text-align: center;
+     padding-left: 10%;
+     color: #fff;
+}
+
+h1, h3, h4, h5 {
+    font-family: 'Archivo Black', sans-serif;
+  }
+
+h2, h1{
+  font-size: 60px;
+}
+  h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Spinnaker', sans-serif;
+}
+.sub {
+  margin-top: -57px;
+  font-size: 22px;
+}
+h5 {
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+}
+#hallo {color: #E49527;}
+#name {color: #165C73;}
+#up{margin-top: -100px;}
+.web {
+width: 68%;
+margin: auto;
+}
+.menu {
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+  border-bottom: 5px solid #7cbb00;
+  top: 0;
+  position: sticky;
+}
+ul {
+  display: block;
+  width: 80%;
+  margin: 0px auto;
+}
+ul li {
+  list-style-type: none;
+}
+
+ul li a{
+  line-height: 60px;
+  text-decoration: none;
+  color: #fff;
+  height: 60px;
+  width: 20%;
+  float: left;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+ul li a:hover {
+  background: #7cbb00;
+}
+
+.pag {background: #7cbb00;}
+
+.q {
+  list-style-type: square;
+  font-family: 'Spinnaker', sans-serif;
+}
+
+.button {
+  text-decoration: none;
+  width: 250px;
+  height: 60px;
+  display: block;
+  color: #fff;
+  background-color: #00a1f1;
+  text-align: center;
+  line-height: 60px;
+  font-family: 'Spinnaker', sans-serif;
+}
+
+.button:hover {
+  background-color: #ffbb00;
+}
+
+@media only screen and (max-width: 800px) {
+  .menu {
+    height: 300px;
+    border: 0;
+    position: relative;
+  }
+  .menu li a{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .top-foto {
+    display: none;
+  }
+  .web {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 705px) {
+  .Microsoft {
+      background-size: 100%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  iframe {
+    width: 100%;
+  }
+}
+
+.kaart {
+  width: 100%;
+}
+
+.filmpje {
+  width: 70%;
+}
